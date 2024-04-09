@@ -19,7 +19,7 @@ import ipConfig from "./ipConfig.json";
 // };
 
 export const config = {
-  endpoint: `http://localhost:8082/api/v1`,
+  endpoint: ipConfig.workspaceIp,
 };
 
 export default function App(props) {
