@@ -4,6 +4,8 @@
     "private": true,
     "dependencies": {
         "@ant-design/icons": "^4.2.2",
+        "@babel/core": "^7.17.10",
+        "@testing-library/dom": "^8.13.0",
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.3.2",
         "@testing-library/user-event": "^7.1.2",
@@ -15,15 +17,14 @@
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-router-dom": "^5.2.0",
-        "react-scripts": "3.4.1",
+        "react-scripts": "^5.0.1",
         "react-test-renderer": "^16.13.1",
-        "@testing-library/dom": "^8.13.0",
         "typescript": "^3.2.1",
-        "@babel/core": "^7.17.10"
+        "@babel/plugin-proposal-private-property-in-object":"7.21.11"
     },
     "scripts": {
         "start": "react-scripts --openssl-legacy-provider start",
-        "build": "react-scripts build --openssl-legacy-provider",
+        "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
@@ -43,6 +44,7 @@
         ]
     },
     "devDependencies": {
-        "enzyme": "^3.11.0"
+        "enzyme": "^3.11.0",
+        "@babel/plugin-proposal-private-property-in-object":"7.21.11"
     }
 }
